@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ServletDay07_ajax01</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValidateNumberServlet</servlet-name>
+    <servlet-class>com.chinasoft.servlet.ValidateNumberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValidatePhoneLoadServlet</servlet-name>
+    <servlet-class>com.chinasoft.servlet.ValidatePhoneLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValidatePhoneJsonServlet</servlet-name>
+    <servlet-class>com.chinasoft.servlet.ValidatePhoneJsonServlet</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>ValidateNumberServlet</servlet-name>
+    <url-pattern>/ValidateNumberServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValidatePhoneLoadServlet</servlet-name>
+    <url-pattern>/ValidatePhoneLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValidatePhoneJsonServlet</servlet-name>
+    <url-pattern>/ValidatePhoneJsonServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
