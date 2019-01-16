@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>航海注册网</title>
+	</head>
+	
+	<body bgcolor="bisque">
+		<h1 style="font-family: '楷体'; color: coral" align="center">欢迎来到海贼时代</h1>
+		<h3 style="font-family: '楷体';" align="right">--让你成为一个有梦想的人</h3>
+		<hr />
+		<form action="index.html" method="get" >
+			<p style="font-family: '楷体'; font-size: 25px;" align="center">开始注册</p>
+				<h3 style="font-family: '楷体';" align="right">--开始你的海贼人生</h3>
+			<p style="font-family: '楷体';" align="center">&nbsp;&nbsp;&nbsp;&nbsp;名称：<input type="text" id="name" ></p>
+			<p style="font-family: '楷体';"align="center">&nbsp;&nbsp;&nbsp;&nbsp;密码：<input type="password" id="name" ></p>
+			<p style="font-family: '楷体';"align="center">确认密码：<input type="password" id="name" ></p>
+			<p style="font-family: '楷体';"align="center">&nbsp;&nbsp;&nbsp;&nbsp;性别：
+			男：<input type="radio" name="sex" value="男"/>
+			&nbsp;&nbsp;&nbsp;
+			女：<input type="radio" name="sex" value="女"/>
+			</p>
+				<p style="font-family: '楷体';"align="center">&nbsp;&nbsp;&nbsp;&nbsp;
+					职业：
+					<select size="1" >
+						<option >航海士</option>
+						<option>剑士</option>
+						<option>医师</option>
+						<option>水手</option>
+						<option>重炮手</option>
+						
+					</select>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;
+				</p>
+					
+			<div align="center">				
+			<p style="font-family: '楷体';">&nbsp;&nbsp;&nbsp;&nbsp;
+				选择初始装备：
+				
+				流星锤：<input type="checkbox" id="name" >
+			
+			        意大利炮：<input type="checkbox" id="name" >
+			       
+			蝴蝶剑：<input type="checkbox" id="name" >
+		
+			西红柿：<input type="checkbox" id="name" >
+			
+			黄金梅里号：<input type="checkbox" id="name" >
+			
+			</p>
+			
+			<p style="font-family: '楷体';" align="center">
+				&nbsp;&nbsp;&nbsp;
+				日期：
+				<input type="date" id="name" >
+			</p>
+			
+			<p style="font-family: '楷体';" align="center">
+		
+
+				选择大陆：
+				<input id="选择大陆" list="大陆" />
+				<datalist id="大陆" >
+					<option>艾欧尼亚</option>
+					<option>艾泽拉斯</option>
+					<option>不夜城</option>
+					<option>弗吉尼亚</option>
+				</datalist>
+			</p>
+			
+			</div>
+			
+			<p style="font-family: '楷体';" align="center" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			个性签名：
+			<textarea style="background-color: beige; font-family: '楷体'; width: 250px; height:30px;" s></textarea>
+			</p>
+			
+			<p style="font-family: '楷体';" align="center">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="reset" style="color: brown;"/>
+			&nbsp;&nbsp;
+			<input type="submit" style="color: blueviolet;" value="提交"/>
+			&nbsp;&nbsp;
+			<input type="button" name="点不动" value="点不动"/>
+			</p>
+			<input type="number" value="10"/>
+			<input type="file" />
+		</form>
+		
+	</body>
+</html>

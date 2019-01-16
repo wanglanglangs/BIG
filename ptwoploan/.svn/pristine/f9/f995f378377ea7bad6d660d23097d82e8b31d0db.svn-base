@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  
+
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoanServlet</servlet-name>
+    <servlet-class>com.chinasoft.servlet.manager.LoanServlet</servlet-class>
+  </servlet>
+ 
+
+ 
+  <servlet-mapping>
+    <servlet-name>LoanServlet</servlet-name>
+    <url-pattern>/Loan</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

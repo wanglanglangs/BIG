@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			h1{background-color: bisque;}
+			body{background-color: beige;}
+		</style>
+	</head>
+	<body style="font-family: 楷体; color: darkred;" >
+		 <marquee direction="right" onmousemove="stop()"onmouseout="start()"> <h1>知识堂首页>>注册&认证</h1></marquee>
+		
+		 <hr  size="4" color="cornflowerblue"/>
+		 <br />
+	    <font size="3" >&nbsp;&nbsp;&nbsp;享受淘宝网免费网上交易乐趣，并且在超人气的社区尽情交流您的网上购物经验，您需要先注册成为淘宝会员，具体步骤如下：</font><br />
+		 
+		 <div  align="left" style="width: 500px ;height: 400px;">
+		 <ul style="font-family: '楷体'; color: blue;" >
+			<li><p><a href="#">如何激活会员？</a></p></li>
+			<li><p><a href="#">如何注册淘宝会员？</a></p></li>
+			<li><p><a href="#">注册时密码设置有什么要求？</a></p></li>
+			<li><p><a href="#">支付宝验证（包括支付宝个人认证和支付宝商家认证）</a></p></li>
+			<li><p><a href="#">为什么校验码明明是对的，却提示我输入错误？</a></p></li>
+		</ul>
+</div>
+
+	</body>
+	
+</html>
